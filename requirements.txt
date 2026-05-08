@@ -1,0 +1,10 @@
+# Core Agent Framework (Choose one)
+langchain>=0.5.0
+# crewai>=2.1.0
+
+# Data & Processing
+pandas>=2.5.0
+beautifulsoup4>=4.13.0
+
+# Environment
+python-dotenv

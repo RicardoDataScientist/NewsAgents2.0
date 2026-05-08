@@ -1,0 +1,27 @@
+# Python & Virtual Env
+.venv/
+__pycache__/
+*.py[cod]
+*.class
+
+# Antigravity Agent Artifacts (Large Files)
+# We keep AGENTS.md and GEMINI.md, but ignore the recordings
+.antigravity/recordings/
+.antigravity/logs/
+walkthrough.md.tmp
+
+# Environment Secrets & MCP Config
+.env
+mcp_config.json
+secrets.json
+
+# Data Science & Large Files
+data/
+*.csv
+*.parquet
+*.pkl
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
